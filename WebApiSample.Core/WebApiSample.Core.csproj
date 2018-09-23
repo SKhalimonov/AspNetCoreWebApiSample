@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MessageSender\MessageSender.csproj" />
+    <ProjectReference Include="..\WebApiSample.Data.Core\WebApiSample.Data.Core.csproj" />
+    <ProjectReference Include="..\WebApiSample.Data\WebApiSample.Data.csproj" />
+  </ItemGroup>
+
+</Project>

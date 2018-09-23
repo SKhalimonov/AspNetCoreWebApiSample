@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityModel" Version="3.6.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.0.3" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.2.4" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.2.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApiSample.Core\WebApiSample.Core.csproj" />
+    <ProjectReference Include="..\WebApiSample.Data.Core\WebApiSample.Data.Core.csproj" />
+    <ProjectReference Include="..\WebApiSample.Data\WebApiSample.Data.csproj" />
+    <ProjectReference Include="..\WebApiSample.Infrastructure\WebApiSample.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
